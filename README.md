@@ -1,5 +1,5 @@
-# file-drive-api
-
+# File drive API
+![Backend Architecture](./docs/images/image.png)
 A Google Drive–like API (Node.js + TypeScript) with auth, files/folders, permissions, notifications, and Stripe billing.
 
 > **Status:** Work in progress (WIP). This repository contains a backend API and related infrastructure for file/folder management, permissions, notifications (email + in-app), and subscriptions.
@@ -96,18 +96,13 @@ docs/
 
 ---
 
-## Contributing
+## Docs
 
-See **[CONTRIBUTING.md](CONTRIBUTING.md)**.
-
----
-
-## Security
-
-See **[SECURITY.md](SECURITY.md)**.
+- Architecture: `docs/ARCHITECTURE.md`
+- Schemas: `docs/SCHEMA.md`
 
 ---
 
 ## License
 
-See **[LICENSE.md](LICENSE.md)**.
+MIT — see `LICENSE`.
