@@ -137,3 +137,19 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# OS / editor
+.DS_Store
+__MACOSX/
+.idea/
+.vscode/
+*.swp
+
+# Local TLS / keys / creds (just in case)
+*.pem
+*.key
+*.p12
+*.crt
+
+# Docker local overrides
+docker-compose.override.yml

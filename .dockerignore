@@ -1,0 +1,29 @@
+# dependencies
+node_modules
+
+# build output
+dist
+*.tsbuildinfo
+
+# env files
+.env
+.env.*
+!.env.example
+
+# git / github
+.git
+.github
+
+# OS / editor
+.DS_Store
+__MACOSX
+.idea
+.vscode
+
+# logs
+*.log
+logs
+
+# tests / coverage (if you add later)
+coverage
+.nyc_output
